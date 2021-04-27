@@ -1,3 +1,4 @@
+/*先设定一组整型数组,对数据进行排序*/
 public class SelectionSort {
 
     public static void main(String[] args){
