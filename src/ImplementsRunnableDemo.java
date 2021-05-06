@@ -1,4 +1,4 @@
-public class ThreadTest01 implements Runnable {
+public class ImplementsRunnableDemo implements Runnable {
     /**
      * When an object implementing interface <code>Runnable</code> is used
      * to create a thread, starting the thread causes the object's
@@ -16,7 +16,7 @@ public class ThreadTest01 implements Runnable {
 
     }
     public static void main(String[] arg){
-        ThreadTest01 tt = new ThreadTest01();
+        ImplementsRunnableDemo tt = new ImplementsRunnableDemo();
         tt.run();
 
     }
